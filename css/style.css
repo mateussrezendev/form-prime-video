@@ -11,6 +11,56 @@ a {
     font-size: 1.3rem;
 }
 
+    @font-face {
+        font-family: 'Amazon Ember';
+        src: url('Amazon Ember.ttf') format('opentype');
+        font-weight: 700;
+        font-style: normal;
+    }
+h1{
+    font-family: 'Amazon Ember';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: white;
+}
+
+p{
+    font-family: 'Amazon Ember';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 27px;
+    color: white;
+}
+
+th{
+    font-family: 'Amazon Ember';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 27px;
+    color: white;
+}
+
+div{
+    font-family: 'Amazon Ember';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: white;
+}
+
+li{
+    font-family: 'Amazon Ember';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    color: white;
+}
 
 ul {
     margin-left: 10px;
@@ -61,17 +111,13 @@ li {
     font-size: 1.8rem;
 }
 
-/* Primeiro texto */
-p {
-    font-size: 1.4rem;
-}
-
 /* botão inscreva-se */
 .btn {
     background-color: #0f79af;
-    width: 300px;
+    width: 280px;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 /* imagem divisão dos botões */
@@ -125,5 +171,4 @@ td {
     padding: 10px;
     text-align: center;
 }
-
 
