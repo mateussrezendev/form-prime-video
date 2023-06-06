@@ -47,3 +47,30 @@ body{
     margin-right: 50px;
 
 }
+
+
+.button {
+    background-color: #0f79af;
+    color: rgb(255, 255, 255);
+    border: 2px solid #0f79af; 
+    padding: 1px 123px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  p{
+    position: absolute;
+    top: 23.5em;
+    left: 17em;
+  }
+  
+  .button {
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: white;
+    color: black;
+  }
